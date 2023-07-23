@@ -48,11 +48,11 @@ async function addFriend(targetLink) {
         }
         await sleep(3000)
         console.log(clc.green.bold('Friend Request Successfully Sent! Closing browser...'));
-        // await browser.close();
+        await browser.close();
       } catch (err) {
         console.log(clc.red.bold('Something went wrong. Closing browser...'));
         console.log(err);
-        // await browser.close();
+        await browser.close();
       }
 }
 
