@@ -18,7 +18,7 @@ Setup:
 4. To get a Discord self-bot token, follow the guide here: https://www.youtube.com/watch?v=YEgFvgg7ZPI
 5. Join servers on the same Discord Account to wait for Facebook links.
 6. The bot will automatically find those links and add them as a friend.
-7. Open CMD again and run ```node main``` to start the bot. 
+7. Open CMD on the directory and run ```node main``` to start the bot. 
 
 -----------------
 If everything is setup properply, your CMD should look like:
